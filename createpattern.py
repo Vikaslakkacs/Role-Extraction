@@ -117,7 +117,7 @@ class EntityPattern():
         ##Removing last punctuation dict
         patterns= patterns[:-1]
         
-        entity_rule=[{'label':'Role', 'pattern':patterns}]
+        entity_rule=[{'label':'Role', 'pattern':patterns, 'id':sentence}]
         
         return entity_rule
     
